@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="Resume" method="get">
+	<table>
+	<tr>
+		<td>First Name:</td>
+		<td> <input type="text" name="fname" required>
+	</tr>
+	
+	<tr>
+		<td>Last Name:</td>
+		<td><input type="text" name="lname" required></td>
+	</tr>
+		
+	<tr>
+		<td>Gender:</td>
+		<td><input type="radio" name="gender" value="male" required>Male</td>
+		<td><input type="radio" name="gender" value="female" required>Female</td>
+	</tr>
+	
+	
+	<tr>
+		<td>Highest Qualification:</td>
+		<td><select multiple required name="highestQualification">
+		<option value="B.Tech/B.E" >B.Tech/B.E</option>
+		<option value="MBA" >MBA</option>
+		<option value="M.Tech" >M.Tech</option>
+		<option value="BSC" >BSC</option>
+		</select></td>
+	</tr>
+	
+	<tr>
+		<td>Date of Birth:</td>
+		<td><input type="date" name="dob" required  ></td>
+	</tr>
+	
+	<tr>
+		<td>Hobbies:</td>
+		<td><select multiple required name="hobbies">
+		<option value="Eating" >Eating</option>
+		<option value="Sleeping" >Sleeping</option>
+		<option value="Dancing" >Dancing</option>
+		<option value="Playing" >Playing</option>
+		</select></td>
+	</tr>
+	
+	<tr>
+		<td>Address:</td>
+		<td> <textarea rows="10" cols="20" name="address" required></textarea></td>
+	</tr>
+	
+	<tr> 
+		<td>Skills:</td>
+		<td><input type="checkbox" name="skills" value="C">C</td>
+		<td><input type="checkbox" name="skills" value="Java">Java</td>
+		<td><input type="checkbox" name="skills" value="C++">C++</td>
+		<td><input type="checkbox" name="skills" value="Python">Ruby</td>
+	</tr>
+	
+	<tr>
+		<td>Email:</td>
+		<td><input type="email" name="email"  ></td>
+	</tr>
+	
+	<tr>
+		<td>Website:</td>
+		<td><input type="url" name=website required></td>
+	</tr>
+	
+	<tr>
+	<td>Description:</td>
+	<td> <textarea rows="10" cols="20" name="description" required></textarea></td>
+	
+	</tr>
+	
+	<tr>
+	<td>Contact Number:</td>
+	<td> <input type="text" name="contactNumber" required></td>
+	
+	</tr>
+	
+	
+	<tr>
+		<td><input type="reset" name="clear" value="Clear"></td>
+		<td><input type="submit" name="submit" value="Submit"></td>
+	</tr>
+	</table>
+	
+	
+	</form>
+
+</body>
+</html>
